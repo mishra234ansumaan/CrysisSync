@@ -1,0 +1,2 @@
+# Local stand-in for the Amazon S3 evidence bucket (dev only).
+# SOS evidence photos land here via src/lib/aws.ts → uploadEvidenceImage().

@@ -1,0 +1,27 @@
+# dependencies / builds
+node_modules/
+.next/
+out/
+
+# secrets — never commit personal AWS or API credentials
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# local evidence and database artifacts
+public/uploads/*
+!public/uploads/.gitkeep
+*.db
+*.db-journal
+
+# OS / editor
+.DS_Store
+.vscode/settings.json
+.idea/
+
+# logs
+*.log
+npm-debug.log*

@@ -1,0 +1,17 @@
+{
+  "name": "CrisisSync — Emergency Response Network",
+  "short_name": "CrisisSync",
+  "description": "AI-powered emergency preparedness & response platform. Voice SOS, peer rescue, live command map.",
+  "start_url": "/victim",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a1128",
+  "theme_color": "#0a1128",
+  "categories": ["utilities", "navigation", "medical"],
+  "icons": [
+    { "src": "/icons/icon-512.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
